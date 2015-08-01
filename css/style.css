@@ -1,3 +1,8 @@
 img {
 	max-width: 200px;
 }
+
+.navbar {
+	border-radius: 0px;
+	border: 0px;
+}
