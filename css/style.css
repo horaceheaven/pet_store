@@ -72,6 +72,15 @@ header .navbar-brand span.subhead {
 	font-weight: 100;
 }
 
+/*Navigation Toggle*/
+header .navbar-toggle {
+	background-color: #279182;
+}
+
+header .navbar-default .navbar-toggle .icon-bar {
+	background-color: white;
+}
+
 /*Footer Navigation*/
 footer .navbar-default {
 	background: transparent;
