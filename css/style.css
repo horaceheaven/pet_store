@@ -1,7 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800|Roboto+Slab:400,100,300,700);
 
 body {
-	padding-top: 50px;
 	font-family: "Roboto Slab", sans-serif;
 	font-weight: 300;
 	font-size: 2em;
@@ -18,11 +17,40 @@ img {
 	max-width: 200px;
 }
 
-.navbar {
-	border-radius: 0px;
-	border: 0px;
+/*Header Navogation*/
+header .navbar {
+	padding: 30px 0;
 }
 
+header .navbar-default {
+	background-color: transparent;
+	border: none;
+}
+
+header .navbar-default .navbar-nav a {
+	color: white;
+	padding: 5px, 8px;
+}
+
+header .navbar-default .navbar-nav a:hover {
+	color: #EEC856;
+}
+
+header .navbar-default .navbar-nav .active a {
+	font-weight: 700;
+	color: #EEC856;
+	background: transparent;
+	border-bottom: 4px solid #EEC856;
+	text-shadow: none;
+}
+
+header .navbar-default .navbar-nav .active a:hover {
+	color: #E15D5F;
+	background: transparent;
+	text-shadow: none;
+}
+
+/*Footer Navigation*/
 footer .navbar-default {
 	background: transparent;
 }
